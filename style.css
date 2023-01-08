@@ -1,0 +1,77 @@
+body{
+   display: flex;
+  
+
+}
+.form{
+   width: 300px;
+margin-left: 10px;
+}
+p{
+margin-left: 5px;
+margin-bottom: 2px;
+}
+input,input[type=button]{
+   outline: none;
+   width:200px;
+   height: 30px;
+   border-radius: 5px;
+   box-sizing: border-box;
+   border: 1px solid rgba(211, 211, 211, 0.961);
+   padding-left: 15px;
+}
+input::placeholder{
+   color: rgba(134, 134, 134, 0.689);
+}
+
+input[type=button]{
+width: 100px;
+color: green;
+background-color: transparent;
+border: 1px solid green;
+
+padding-left: 0px;
+}
+
+table{
+width: 450px;
+
+}
+tr{
+   margin-top: 10px;
+   height: 30px;
+}
+.heder_p{
+   margin-left: 2px;
+}
+.editUser{
+   display: none;
+  
+
+}
+
+ .editUser:hover{
+   color: white;
+   background-color: #1e9c39;
+}
+
+.editUser:focus{
+   box-shadow: 0 0 3px 3px #7ac988;
+}
+
+td .edit_button,td .delete_button{
+   width: 53px;
+   height: 38px;
+   background-color: #edaf04;
+   color: white;
+   border-radius: 3px;
+   outline: none;
+   border: none;
+} 
+
+td .delete_button{
+   background-color: #ed4204;
+   text-align: center;
+   padding-left: 6px;
+
+}

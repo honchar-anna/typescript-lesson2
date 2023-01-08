@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form class="form">
+    <p >Login</p>
+    <input class="login" type="text" placeholder="Enter login" required>
+    <p >Password</p>
+    <input class=" password" type="password" placeholder="Enter password" required>
+    <p >Email address</p>
+    <input class="email" type="email" placeholder="Enter email" required><br><br>
+    <input class="addButton" onclick="addUser()" type="button" value="Add user">
+    <input class="editUser" onclick="saveEditUser()" type="button" value="Save user">
+</form>
+<table class="table">
+<thead >
+ <tr class="heder">
+     <td class="heder_p">  #</td>
+     <td class="heder_p">   Login</td>
+     <td class="heder_p">   Password</td>
+     <td class="heder_p">Email</td>
+     <td class="heder_p">Edit</td>
+     <td class="heder_p">Delete</td>
+ </tr>
+</thead>
+<tbody class="tbody">
+  <!-- <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td><input class="edit_button" type="button" value="edit"></td>
+    <td><input type="button" value="delete"class="delete_button"></td>
+</tr> -->
+
+</tbody>
+</table>
+   <script src="main.js"></script>
+</body>
+</html>
